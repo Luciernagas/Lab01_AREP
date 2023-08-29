@@ -20,7 +20,7 @@ mvn package
 ~~~
 Finalmente para ejecutar el programa se debe ingresar el siguiente comando:
 ~~~
-mvn package
+java -cp "./target/classes" org.example.laboratorio.HttpServer
 ~~~
 Cuando en la terminal veamos el mensaje "Listo para recibir ..." ingresamos mediante nuestro browser a la ruta http://localhost:35000.
 Al realizar los pasos anteriores se espera visualizar lo siguiente en la página web:
